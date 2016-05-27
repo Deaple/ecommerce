@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">	
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<script type="text/javascript" src="js/script.js"></script>
+	<title>Ecomerce - Informática</title>
+</head>
+<body onLoad="slide1()">
+
+	<header id="logo">
+		<a href="index.html"><img src="img/logo.png" alt="logo" width="100" height="100"/></a>
+		<h2>Venda de Eletrônicos</h2>
+	</header>
+
+	<section id="login">
+		<form id="formLogin">
+			<label>Email: </label>
+			<input id="usr-email" type="email" name="email" title="Email ex: nome@email.com.br" placeholder="name@email.com"  required>
+			<label>Senha: </label>
+			<input id="senha" type="password" name="senha" pattern=".{8,}" title="Mínimo 8 caracteres" required>
+			<input type="submit" value="Login">
+		</form>
+	</section>
+
+	<section id="busca">
+		<form id="formPesq">
+			<label>Pesquisar produto: </label>
+			<input id="pesq" type="search" placeholder="Digite um termo" pattern="{[a-z]-[0-9]}" title="Ex: Samsung-500">
+			<input type="submit" value="Pesquisar">
+		</form>
+	</section>
+	
+	<nav id="menu">
+		<ul>
+			<li><a href="mapadosite.html#conteudo">Mapa do site</a></li>
+			<li><a href="#">Alto contraste</a></li>
+			<li><a href="index.html#conteudo">Conteúdo</a></li>
+			<li><a href="index.html#menu">Menu</a></li>
+			<li><a href="index.html#rodape">Rodapé</a></li>
+			<li><a href="index.html#busca">Busca</a></li>
+		</ul>
+	</nav>
+
+	<section id="banner">
+		<h3>Promoções!</h3>
+		<a id="slide-link" href=""><img id="slide-img" src=""/></a>
+	</section>	
+
+	<section id="conteudo">
+		<article>
+			<h3>Bem vindo!</h3>
+			<p>Nossa loja tem os <strong>melhores preços</strong> do mercado. Confira nossos produtos: </p>
+			<ul>
+				<li><a href="smartphones.html#conteudo">Smartphones</a></li>
+				<li><a href="notebooks.html#conteudo">Notebooks</a></li>
+				<li><a href="tablets.html#conteudo">Tablets</a></li>
+			</ul>
+		</article>
+	</section>
+
+	<div id="pub-esq">
+		<img src="img/propagandas/ad_esq.gif" alt="propaganda esquerda"/>
+	</div>
+
+
+	<div id="pub-dir">
+		<img src="img/propagandas/ad_dir.gif" alt="propaganda direita"/>
+	</div>
+
+	<footer id="rodape">
+		<p>Data de criação/modificação: maio de 2016. Desenvolvido por: <a href="mailto:yzaak@gmail.com">Isaac Silva</a> e <a href="mailto:bsteles@gmail.com">Bruno Teles</a></p>
+		<small>Telefone: <a href="tel:(55)773400-0000">773400-0000</a></small>
+		<p>
+   		 
+   		<a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="CSS válido!" />
+    	</a>
+		</p>
+	</footer>
+</body>
+
+</html>
