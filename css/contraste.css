@@ -1,0 +1,202 @@
+body {
+	overflow-x: hidden;
+	padding: 0;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #000000;
+	color: #ffff99;
+}
+/* login e busca */
+
+#formPesq{
+	position: absolute;
+	left: 60%;
+	bottom: 80%;
+}
+#formPesq input[type=submit]{
+	background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+#formLogin{
+	position: absolute;
+	left: 60%;
+	bottom: 90%;
+}
+#formLogin input{
+	width:20%;
+}
+
+#formLogin input[type=submit]{
+	background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+/* fim do login e busca */
+
+/* menu */
+#menu ul{
+	background-color: #062d10;
+	padding: 20px;
+	text-align: center;
+    list-style-type: none;
+}
+#menu ul li {
+	display: inline-block;
+}
+
+#menu ul li a{
+	text-shadow:1px 1px black;
+	text-decoration: none;
+	padding: 20px 20px;
+	color: white;
+}
+
+#menu ul li a:hover{
+	color: white;
+	font-size: 20px;
+	background-color: #009900;
+}
+/* fim do menu */
+
+/* banner */
+#banner h3{
+	text-align: center;
+	font-size: 32;
+}
+#banner  img{
+	border: 5px #dbdbdb solid ;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+/* fim do banner */
+
+/* tabela de produtos */
+#conteudo{
+	/*h4 e paragrafo do article*/
+	text-align: center;
+}
+#conteudo article ul li{
+	list-style: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-right: 220px;
+	margin-left: 260px;
+	background-color: #232323;
+}
+
+#conteudo article ul li a{
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px;
+	color: #FFFFFF;
+}	
+#conteudo article ul li a:hover{
+	background-color: #000000;
+}	
+
+#conteudo article caption h4{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 0;
+	background-color: #0c5a20;
+}
+#conteudo article table{
+	-webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+    -moz-margin-start: auto;
+    -moz-margin-end: auto;
+	position: relative;
+	margin-bottom: 10px;
+	border-collapse: collapse;
+}
+#conteudo article table thead th{
+	background-color: #062d10;
+    color: white;
+    padding-top: 10px;
+	padding-bottom: 10px;
+}
+#conteudo article table tbody tr td{
+	padding-left: 10px;
+	padding-right: 10px;
+	border-bottom: 1px solid #ddd;
+}
+#conteudo article table tbody tr:hover{
+	background-color:#00330d;
+}
+#conteudo article table tbody tr td article{
+	text-align: justify;
+	width:300px;
+	height:300px;
+	vertical-align: right;
+}
+
+#conteudo article table tbody tr td video{
+	width:300px;
+	height:200px;
+}
+
+#conteudo article table tbody tr td img{
+	width:200px;
+	height:200px;
+}
+
+/* fim tabela de produtos */
+
+/* propagandas */
+#pub-dir img{
+	width: 500px;
+	height: 100px;
+	left: 63%;
+	position: relative;
+	padding-bottom: 10px;
+}
+
+#pub-esq img{
+	width: 500px;
+	height: 100px;
+	position: absolute;
+	padding-bottom: 10px;
+}
+/* fim das propagandas */
+
+/* rodapé */
+#rodape {
+	background-color: #002533;
+	height: 100px;
+	width: 100%;
+}
+#rodape a{
+	text-decoration: none;
+	color: yellow;
+}
+#rodape p{
+	color: white;
+	text-shadow: gray;
+	padding-top: 15px;
+	text-align: center;
+
+}
+#rodape small{
+	text-align: center;
+    position: absolute;
+    left: 50%;
+    margin-top: -6px;
+}
+#rodape img{
+    width: 88px;
+    height: 31px;
+    padding-right: 60%;
+    margin-top: -2%;
+}
+/* fim do rodapé */
